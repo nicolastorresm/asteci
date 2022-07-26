@@ -1,0 +1,31 @@
+Inyeccion de dependencia..
+1.- 
+En Spring se deja de instanciar con el tipico New Clase(), para dar uso a un IOC llamado Inyeccion de depencia, 
+que permite instanciar  mediante
+@Autowired: para que podamos hacer uso de sus metodos 
+
+
+2. patrones de diseño
+
+Singleton
+Strategy
+Observer.
+MVC * (arquitectura)
+
+3.- Security: Definir y configurar la autorizacion y autenticacion hacia los recursos y logueo metiante el framework o algun externo como JWT u oath
+
+4.- @Qualifier para referenciar un  servicio y distinnguirlo de otro.
+@Required es una anotacion que me obliga a ocupar la dependencia en cuestion
+@Transactional ayuda  a hacer lectura o escritura de un bean (reanonly = true)
+@bean es para agregar un componente al contenedor de sprig
+@configuracion, es una anotacion de configuracion para poder definir beans, 
+
+8.- es una arquitectura que permite trabajar en pequeños servicios independientes, mejorando el renidmiento y el tiempo de desarrollo
+contrario a los servicios monoliticos que eran un todo, en esta arquitectura podemos tener app pequeñas disponibles para las apliucaciones q se requieran
+y si necesitan algun mantenimiento no impacta por que es de bajo acomplamiento
+
+10.- eureka servidores
+ribbon balanceo de carga 
+spring cloudconfig para configurar entornos en la nube y poder trabajar con microservicios
+
+oauth autenticacione jwt
