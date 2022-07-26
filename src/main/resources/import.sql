@@ -1,0 +1,1 @@
+insert into operador(nombre,apellido) values("Nicolas","Torres);
